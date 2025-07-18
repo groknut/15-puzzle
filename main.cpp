@@ -94,13 +94,9 @@ void helper()
 	cout << "- 'empty file or any other value' : both arrow keys and WASD control" << endl;
 	cout << "- 'dim n' : we give the value to the standard field size" << endl;
 	cout << "- 'empty file or any other value' : n = 3" << endl << endl;
-	cout << "Map creation pseudosyntax:" << endl;
-	cout << "'REM' : comment" << endl;
-	cout << "# fn (-) : declaration, where '-' is:" << endl;
-	cout << "* 'solved' : solved field state" << endl;
-	cout << "* 'field' : initial field state" << endl;
-	cout << "* 'desc' : map description" << endl;
-	cout << "'# endfn' : end of declaration" << endl;
-	cout << "'#EMPTY' : empty cell value" << endl;
-	cout << "'#CREATOR' : map creator's name" << endl;
+	cout << "Map creation:" << endl;
+    cout << "'REM current': initial field state" << endl;
+    cout << "'REM solved': soled field state" << endl;
+	cout << "'#EMPTY': empty cell value" << endl;
+	cout << "'#CREATOR': map creator's name" << endl;
 }
