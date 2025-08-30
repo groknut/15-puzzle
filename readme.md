@@ -9,7 +9,7 @@ A fully customizable version of the "15-Puzzle" game.
 
 1. **Clone the repository**
 ```bash
-git clone https://github.com/yoken-do/15-puzzle.git
+git clone https://github.com/groknut/15-puzzle.git
 cd 15-puzzle
 ```
 

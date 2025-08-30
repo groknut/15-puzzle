@@ -6,7 +6,7 @@ Game::Game(const bool& backward_mode)
 	loadSettings(meta);
 	meta.solved = generateSolved();
 	meta.current = shuffleField(meta.solved);
-	meta.creator = "yoken-do";
+	meta.creator = "groknut";
 	session.count = 0;
 	meta.backward_mode = backward_mode;
 	session.fields.push_back(meta.current);
